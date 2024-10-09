@@ -20,7 +20,7 @@ function preload() {
 }
 function setup() {
   textAlign(CENTER);
-  createCanvas(400, 400);
+  createCanvas(640, 480);
 }
 
 function draw() {
