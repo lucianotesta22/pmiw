@@ -1,6 +1,5 @@
 // Definición de pantallas
-function pantallas() {
-    rect(0,0,width,height);
+function pantallas(texto) {
     x1 = 60;
     x2 = 370;
     y1 = 150;
@@ -8,6 +7,6 @@ function pantallas() {
     background(255);
     fill(0);
     textSize(32);
-    text(pant[pantActual], width/2, 100);
+    text(texto, width/2, 100);
     dibujarBoton(x1, y1, x2, y2);
 }
