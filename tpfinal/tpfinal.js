@@ -49,7 +49,7 @@ function mousePressed() {
   }
 }
 
-function drawButton( x1, y1, x2, y2 ) {
+function dibujarBoton( x1, y1, x2, y2 ) {
   fill(255);
   ellipse(x1, y1, 50, 50);
   ellipse(x2, y2, 50, 50);
