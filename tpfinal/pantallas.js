@@ -8,7 +8,7 @@ function pant1() {
   fill(0);
   textSize(32);
   text('Pantalla 1', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant2() {
@@ -20,7 +20,7 @@ function pant2() {
   fill(0);
   textSize(32);
   text('Pantalla 2', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant3() {
@@ -32,7 +32,7 @@ function pant3() {
   fill(0);
   textSize(32);
   text('Pantalla 3', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant4() {
@@ -44,7 +44,7 @@ function pant4() {
   fill(0);
   textSize(32);
   text('Pantalla 4', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant5() {
@@ -56,7 +56,7 @@ function pant5() {
   fill(0);
   textSize(32);
   text('Pantalla 5', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant6() {
@@ -68,7 +68,7 @@ function pant6() {
   fill(0);
   textSize(32);
   text('Pantalla 6', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant7() {
@@ -80,7 +80,7 @@ function pant7() {
   fill(0);
   textSize(32);
   text('Pantalla 7', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant8() {
@@ -92,7 +92,7 @@ function pant8() {
   fill(0);
   textSize(32);
   text('Pantalla 8', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant9() {
@@ -104,7 +104,7 @@ function pant9() {
   fill(0);
   textSize(32);
   text('Pantalla 9', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant10() {
@@ -116,7 +116,7 @@ function pant10() {
   fill(0);
   textSize(32);
   text('Pantalla 10', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant11() {
@@ -128,7 +128,7 @@ function pant11() {
   fill(0);
   textSize(32);
   text('Pantalla 11', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant12() {
@@ -140,7 +140,7 @@ function pant12() {
   fill(0);
   textSize(32);
   text('Pantalla 12', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant13() {
@@ -152,7 +152,7 @@ function pant13() {
   fill(0);
   textSize(32);
   text('Pantalla 13', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant14() {
@@ -164,7 +164,7 @@ function pant14() {
   fill(0);
   textSize(32);
   text('Pantalla 14', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
 
 function pant15() {
@@ -176,5 +176,5 @@ function pant15() {
   fill(0);
   textSize(32);
   text('Pantalla 15', width/2, 100);
-  drawButton(x1, y1, x2, y2);
+  dibujarBoton(x1, y1, x2, y2);
 }
