@@ -7,7 +7,7 @@ function preload() {
   // Carga tanto de imagenes como de textos
   for (var i = 0; i <= 16; i++) {
     pant[i] = "pantalla " + i;
-    //imagenes[i] = loadImage("pantalla" + i + ".jpg);
+  //imagenes[i] = loadImage("pantalla" + i + ".jpg);
   }
 }
 function setup() {
