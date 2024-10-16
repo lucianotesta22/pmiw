@@ -16,7 +16,7 @@ function setup() {
 
 function draw() {
   // Llama a la función de la pantalla actual
-  pantallas();
+  pantallas(pant[i],imagenes[i]);
 }
 
 function mousePressed() {
