@@ -7,7 +7,7 @@ function pantallas(texto,foto) {
     background(255);
     fill(0);
     textSize(32);
-    //image(foto
+    //image(foto[i],0,0,width,height);
     text(texto, width/2, 100);
     dibujarBoton(x1, y1, x2, y2);
 }
