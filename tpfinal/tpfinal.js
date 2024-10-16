@@ -1,10 +1,12 @@
 let pant = [];
+let imagenes = [];
 let pantActual = 0;
 let x1, y1, x2, y2;
 
 function preload() {
   for (var i = 0; i <= 16; i++) {
     pant[i] = "pantalla " + i;
+    //imagenes[i] = loadImage("pantalla" + i + ".jpg);
   }
 }
 function setup() {
