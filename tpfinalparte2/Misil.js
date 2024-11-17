@@ -1,6 +1,5 @@
 class Misil {
   constructor(velocidad) {
-    this.tipo = int(random(0, 2));
     this.posicionMisil();
     this.lado = 80;
     this.velocidad = velocidad;
