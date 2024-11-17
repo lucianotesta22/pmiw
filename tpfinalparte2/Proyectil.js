@@ -17,9 +17,6 @@ class Proyectil {
     push();
     if (this.foto) {
       image(this.foto, this.posX, this.posY - this.altura / 2, this.anchura, this.altura); // Centrar la imagen
-    } else {
-      fill(255, 0, 0); 
-      rect(this.posX, this.posY - this.altura / 2, this.anchura, this.altura); // Dibujar rectángulo
     }
     pop();
   }
