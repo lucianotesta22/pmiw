@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventura Gráfica - Leon S. Kennedy | Resident Evil 2</title>
+    <!-- Enlace a Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Aventura Gráfica: Resident Evil 2 - Leon S. Kennedy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#game">La Aventura Gráfica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#leon">Leon S. Kennedy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historia">Historia del Juego</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Mundo de Resident Evil</h1>
+        <p>Bienvenidos a una experiencia inmersiva basada en el mundo de Resident Evil, una de las franquicias más emblemáticas en el género de horror de supervivencia. En esta aventura gráfica interactiva, acompañarás a Leon S. Kennedy, un joven policía novato, en su primer día de trabajo en Raccoon City, un día que rápidamente se convierte en una pesadilla debido a un brote viral devastador.</p>
+        <p>El día comienza como cualquier otro para Leon: un novato con mucha esperanza y sueños por cumplir, pero pronto la realidad lo golpea con la propagación de un virus mortal. Lo que parecía ser un día normal se convierte en un caos total cuando los residentes de la ciudad se transforman en zombis debido al brote de un Virus. Lo que sigue es una lucha por la supervivencia en la que Leon deberá enfrentarse a hordas de enemigos y tomar decisiones difíciles para protegerse a sí mismo y a otros supervivientes.</p>
+        <p>En esta aventura gráfica, tendrás la oportunidad de tomar decisiones que impactan directamente en la historia. Desde el primer momento, serás testigo de la lucha por la supervivencia mientras exploras un mundo lleno de peligros, enigmas y decisiones que podrían cambiar el destino de los personajes. ¿Serás capaz de sobrevivir en medio del caos y los zombis?</p>
+    </div>
+    <section id="game" class="container sm-2">
+        <h2>Aventura Gráfica</h2>
+        <p>La aventura gráfica está inspirada en los eventos de Resident Evil. Tú tomas el control de Leon S. Kennedy, un joven policía que se ve atrapado en un mundo lleno de zombis. A medida que exploras Raccoon City, tomarás decisiones que influirán directamente en el curso de la historia, resolviendo situaciones complicadas. La tensión aumenta con cada paso, ya que cada elección puede ser crucial para sobrevivir o sucumbir ante los horrores del virus.</p>
+        <div id="gameCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#gameCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#gameCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#gameCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="data/Screenshot1.png" class="d-block w-100" alt="Pantalla de Inicio">
+                </div>
+                <div class="carousel-item">
+                    <img src="data/Screenshot2.jpg" class="d-block w-100" alt="pantalla donde se encuentra una decisión">
+                </div>
+                <div class="carousel-item">
+                    <img src="data/Screenshot3.png" class="d-block w-100" alt="Pantalla de créditos de la aventura gráfica">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gameCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gameCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+    <section id="mi-juego" class="container mt-5">
+        <h2>Juego Basado en la Aventura Gráfica</h2>
+        <p>Este juego que he desarrollado está inspirado en la aventura gráfica basada en Resident Evil pero con una jugabilidad basada en una defensa de edificios. En este juego, sigues jugando como Leon S Kennedy pero tienes que disparar unos proyectiles hacia misiles que caen de la parte superior de la pantalla para proteger las ciudades, si uno de los misiles impacta contra una ciudad, eso es game over. Una de las principales características es el sistema de munición en el cual tienes una cantidad limitada de disparos en el cual una vez agotado de munición tienes que presionar una tecla (En este caso la "R") para recargar el cargador</p>
+        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#gameModal">
+            Reproducir Juego
+        </button>
+    </section>
+
+    <!-- Modal para reproducir el juego -->
+    <div class="modal fade" id="gameModal" tabindex="-1" aria-labelledby="gameModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="gameModalLabel">Juego : Defiende las Ciudades</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="tpfinalparte2/index.html" width="650px" height="500px" frameborder="0"></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="d-flex justify-content-center align-items-center bg-dark text-Red py-4">
+        <div>
+            <h4>Juego y Aventura Gráfica creados por Luciano Testa (88294/7) y Felipe Vallejo (88164/7)</h4>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
